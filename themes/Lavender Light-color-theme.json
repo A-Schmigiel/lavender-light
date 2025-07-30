@@ -1760,6 +1760,20 @@
     "widget.shadow": "#7d26631e",
     "walkThrough.embeddedEditorBackground": "#00000050",
 
+    // 	 ==== 	 	Git Colors     ======
+    // 				----------
+    "gitDecoration.addedResourceForeground": "#78ad08", // Color for added Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.modifiedResourceForeground": "#c72596", // Color for modified Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.deletedResourceForeground": "#ff8b8bdb", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.renamedResourceForeground": "default", // Color for renamed or copied Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.stageModifiedResourceForeground": "#d10895", // Color for staged modifications git decorations. Used for file labels and the SCM viewlet.
+    "gitDecoration.stageDeletedResourceForeground": "#ff5353cf", // Color for staged deletions git decorations. Used for file labels and the SCM viewlet.
+    "gitDecoration.untrackedResourceForeground": "#078e078f", // Color for untracked Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.ignoredResourceForeground": "#8e8e9087", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.conflictingResourceForeground": "#ff0000", // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+    "gitDecoration.submoduleResourceForeground": "#a7a512", // Color for submodule resources.
+    "git.blame.editorDecorationForeground": "default", // Color for the blame editor decoration
+
     // 	 ==== 	 	Text colors	    ======
     // 				-----------
     "textBlockQuote.background": "#f2f2f2",
@@ -1894,17 +1908,6 @@
     "activityErrorBadge.foreground": "#ffe3f7",
     "activityErrorBadge.background": "#f88b8b",
 
-	// "actionBar.toggledBackground": "#ff45741f",	
-	// "toolbar.hoverOutline": "#000000",
-	// "tab.unfocusedHoverForeground": "#000000",
-	// "sash.hoverBorder": "#3cec25",
-	// "sideBarActivityBarTop.border": "#00000000",	
-	// "tab.selectedBackground": "#fcdee9",
-	// "tab.selectedForeground": "#333333",
-	// "list.focusAndSelectionOutline": "#ff0000",
-	// "editorOverviewRuler.selectionHighlightForeground": "#a0a0a0cc",
-	
-
     // 	 ==== 	 	Profiles     ======
     // 				--------
     "profileBadge.background": "default", // Profile badge background color. The profile badge shows on top of the settings gear icon in the activity bar.
@@ -1914,14 +1917,14 @@
     // 	 ==== 	 	Side Bar     ======
     // 				--------
     "sideBar.background": "#ffe3f7",
-    "sideBar.foreground": "#542a47",
+    "sideBar.foreground": "#b6639d",
     "sideBar.border": "#cd9bbe78",
-    "sideBarTitle.foreground": "#541942",
+    "sideBarTitle.foreground": "#ffe3f7",
     "sideBarTitle.border": "#cd9bbe78",
     "sideBarSectionHeader.background": "#e4add4",
-    "sideBarSectionHeader.foreground": "#4f183f",
+    "sideBarSectionHeader.foreground": "#ffebf9",
     "sideBar.dropBackground": "#f0d9f5",
-	"sideBarTitle.background": "#b6639d",
+    "sideBarTitle.background": "#b6639d",
 
     // 	 ==== 	 	MiniMap     ======
     // 				-------
@@ -1944,18 +1947,18 @@
     // 	 ==== 	 	Editor Groups and Tabs     ======
     // 				----------------------
     "editorGroup.border": "#7d2663",
-    "editorGroup.dropBackground": "#eec12ea4",
-    "editorGroup.emptyBackground": "#ffe3f7",
-    "editorGroupHeader.tabsBackground": "#f5d3eb",
+    "editorGroup.dropBackground": "#2eee4867",
+    "editorGroup.emptyBackground": "#fccced",
+    "editorGroupHeader.tabsBackground": "#fccced",
     "editorGroupHeader.tabsBorder": "#e6b9d900",
-    "tab.activeForeground": "#f9f5f8",
-    "tab.border": "#7d266334",
-    "tab.activeBackground": "#753d64",
+    "tab.activeForeground": "#7d2663",
+    "tab.border": "#3b1f3334",
+    "tab.activeBackground": "#ffedf9",
     "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#67ff77",
-    "tab.inactiveBackground": "#f5d3eb",
-    "tab.inactiveForeground": "#512845",
-    "tab.unfocusedActiveBackground": "#b6639d",
+    "tab.activeBorderTop": "#00ff88",
+    "tab.inactiveBackground": "#fccced",
+    "tab.inactiveForeground": "#9e7792",
+    "tab.unfocusedActiveBackground": "#fccced",
     "tab.hoverBackground": "#d5ffc6",
     "tab.hoverForeground": "#7d2663",
     "tab.dragAndDropBorder": "#67ff77",
@@ -1970,9 +1973,9 @@
     // 				-------------
     "editor.background": "#fdf4f8",
     "editor.foreground": "#7d2663",
-    "editorLineNumber.foreground": "#ffe3f7",
-    "editorLineNumber.activeForeground": "#b6ebaf",
-    "editorCursor.foreground": "#a12b7f",
+    "editorLineNumber.foreground": "#7d2663",
+    "editorLineNumber.activeForeground": "#35722d",
+    "editorCursor.foreground": "#582b4c",
     "editorCursor.background": "#f2e2ee",
     "editorMultiCursor.primary.foreground": "#2b50a1",
     "editorMultiCursor.primary.background": "#f2e2ee",
@@ -1988,12 +1991,12 @@
     "editor.wordHighlightStrongBorder": "#7d26632c",
     "editor.wordHighlightBackground": "#d9d9d940",
     "editor.wordHighlightBorder": "#8e8e8e40",
-    "editor.findMatchBackground": "#e5e4fd",
-    "editor.findMatchForeground": "#4d2140",
-    "editor.findMatchBorder": "#5b13dbcb",
-    "editor.findMatchHighlightBackground": "#4d2140e5",
-    "editor.findMatchHighlightForeground": "#7fd75f12",
-    "editor.findMatchHighlightBorder": "#d32a52",
+    "editor.findMatchBackground": "#e5e4fd1f",
+    "editor.findMatchForeground": "#4d1c3e",
+    "editor.findMatchBorder": "#d413dbcb",
+    "editor.findMatchHighlightBackground": "#a81e7f0c",
+    "editor.findMatchHighlightForeground": "#000000dc",
+    "editor.findMatchHighlightBorder": "#105806",
     "editor.findRangeHighlightBackground": "#ffd7e076",
     "editor.findRangeHighlightBorder": "#7d266369",
 
@@ -2012,33 +2015,31 @@
     "editorWhitespace.foreground": "#33333333",
 
     "editorIndentGuide.background1": "#e48cca64", // Color of the editor indentation guides (1).
-    // "editorIndentGuide.background2": "default", // Color of the editor indentation guides (2).
-    // "editorIndentGuide.background3": "default", // Color of the editor indentation guides (3).
-    // "editorIndentGuide.background4": "default", // Color of the editor indentation guides (4).
-    // "editorIndentGuide.background5": "default", // Color of the editor indentation guides (5).
-    // "editorIndentGuide.background6": "default", // Color of the editor indentation guides (6).
-    // "editorIndentGuide.activeBackground": "default", // Color of the active editor indentation guide.
+    "editorIndentGuide.background2": "default", // Color of the editor indentation guides (2).
+    "editorIndentGuide.background3": "default", // Color of the editor indentation guides (3).
+    "editorIndentGuide.background4": "default", // Color of the editor indentation guides (4).
+    "editorIndentGuide.background5": "default", // Color of the editor indentation guides (5).
+    "editorIndentGuide.background6": "default", // Color of the editor indentation guides (6).
+    "editorIndentGuide.activeBackground": "default", // Color of the active editor indentation guide.
     "editorIndentGuide.activeBackground1": "#2f9b3a5c", // Color of the active editor indentation guides (1).
-    // "editorIndentGuide.activeBackground2": "default", // Color of the active editor indentation guides (2).
-    // "editorIndentGuide.activeBackground3": "default", // Color of the active editor indentation guides (3).
-    // "editorIndentGuide.activeBackground4": "default", // Color of the active editor indentation guides (4).
-    // "editorIndentGuide.activeBackground5": "default", // Color of the active editor indentation guides (5).
-    // "editorIndentGuide.activeBackground6": "default", // Color of the active editor indentation guides (6).
+    "editorIndentGuide.activeBackground2": "default", // Color of the active editor indentation guides (2).
+    "editorIndentGuide.activeBackground3": "default", // Color of the active editor indentation guides (3).
+    "editorIndentGuide.activeBackground4": "default", // Color of the active editor indentation guides (4).
+    "editorIndentGuide.activeBackground5": "default", // Color of the active editor indentation guides (5).
+    "editorIndentGuide.activeBackground6": "default", // Color of the active editor indentation guides (6).
 
-    //// To see the editor inline hints, set "editor.inlineSuggest.enabled": true.
-    // "editorInlayHint.background":  "default", // Background color of inline hints.
-    // "editorInlayHint.foreground":  "default", // Foreground color of inline hints.
-    // "editorInlayHint.typeForeground":  "default", // Foreground color of inline hints for types
-    // "editorInlayHint.typeBackground":  "default", // Background color of inline hints for types
-    // "editorInlayHint.parameterForeground":  "default", // Foreground color of inline hints for parameters
-    // "editorInlayHint.parameterBackground":  "default", // Background color of inline hints for parameters
+    // To see the editor inline hints, set "editor.inlineSuggest.enabled": true.
+    "editorInlayHint.background": "default", // Background color of inline hints.
+    "editorInlayHint.foreground": "default", // Foreground color of inline hints.
+    "editorInlayHint.typeForeground": "default", // Foreground color of inline hints for types
+    "editorInlayHint.typeBackground": "default", // Background color of inline hints for types
+    "editorInlayHint.parameterForeground": "default", // Foreground color of inline hints for parameters
+    "editorInlayHint.parameterBackground": "default", // Background color of inline hints for parameters
 
     // To see editor rulers, define their location with "editor.rulers"
     "editorRuler.foreground": "#c2409b3a", // Color of the editor rulers.
     "editor.linkedEditingBackground": "default", // Background color when the editor is in linked editing mode.
-
     "editorCodeLens.foreground": "#cdcdcd",
-
     "editorBracketMatch.background": "#10ff2c5b",
     "editorBracketMatch.border": "#37ff005b",
 
@@ -2094,8 +2095,8 @@
     "editorUnnecessaryCode.opacity": "default", // Opacity of unnecessary (unused) source code in the editor. For example, "#000000c0" will render the code with 75% opacity. For high contrast themes, use the "editorUnnecessaryCode.border" theme color to underline unnecessary code instead of fading it out.
 
     // The gutter contains the glyph margins and the line numbers:
-    "editorGutter.background": "#753d64", // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
-    "editorGutter.modifiedBackground": "#c012c7c3", // Editor gutter background color for lines that are modified.
+    "editorGutter.background": "#ffedf9", // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+    "editorGutter.modifiedBackground": "#cb18d19a", // Editor gutter background color for lines that are modified.
     "editorGutter.modifiedSecondaryBackground": "default", // Editor gutter secondary background color for lines that are modified.
     "editorGutter.addedBackground": "#81b88b", // Editor gutter background color for lines that are added.
     "editorGutter.addedSecondaryBackground": "default", // Editor gutter secondary background color for lines that are added.
@@ -2523,20 +2524,6 @@
     "debugTokenExpression.error": "default", // Foreground color for expression errors in debug views.
     "debugTokenExpression.type": "default", // Foreground color for the token types shown in the debug views (ie. the Variables or Watch view)
 
-    // 	 ==== 	 	Git Colors     ======
-    // 				----------
-    "gitDecoration.addedResourceForeground": "#78ad08", // Color for added Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.modifiedResourceForeground": "#e419a7", // Color for modified Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.deletedResourceForeground": "#ff8b8bdb", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.renamedResourceForeground": "default", // Color for renamed or copied Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.stageModifiedResourceForeground": "#d10895", // Color for staged modifications git decorations. Used for file labels and the SCM viewlet.
-    "gitDecoration.stageDeletedResourceForeground": "#ff5353cf", // Color for staged deletions git decorations. Used for file labels and the SCM viewlet.
-    "gitDecoration.untrackedResourceForeground": "#078e078f", // Color for untracked Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.ignoredResourceForeground": "#8e8e9087", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.conflictingResourceForeground": "#ff0000", // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
-    "gitDecoration.submoduleResourceForeground": "#a7a512", // Color for submodule resources.
-    "git.blame.editorDecorationForeground": "default", // Color for the blame editor decoration
-
     // 	 ==== 	 	Settings Editor Colors     ======
     // 				----------------------
     // Note: These colors are for the GUI settings editor which can be opened with the Preferences: Open Settings (UI) command.
@@ -2565,8 +2552,8 @@
     // 	 ==== 	 	Breadcrumbs Colors     ======
     // 				------------------
     // The theme colors for breadcrumbs navigation:
-    "breadcrumb.foreground": "#ead2e3", // Color of breadcrumb items.
-    "breadcrumb.background": "#753d64", // Background color of breadcrumb items.
+    "breadcrumb.foreground": "#ffe8f8", // Color of breadcrumb items.
+    "breadcrumb.background": "#d6a8c8", // Background color of breadcrumb items.
     "breadcrumb.focusForeground": "#ffffff", // Color of focused breadcrumb items.
     "breadcrumb.activeSelectionForeground": "#ffffff", // Color of selected breadcrumb items.
     "breadcrumbPicker.background": "default" // Background color of breadcrumb item picker.
