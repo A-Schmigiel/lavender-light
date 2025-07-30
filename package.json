@@ -1,0 +1,21 @@
+{
+  "name": "lavender-light",
+  "displayName": "Lavender Light",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavender Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lavender Light-color-theme.json"
+      }
+    ]
+  }
+}
